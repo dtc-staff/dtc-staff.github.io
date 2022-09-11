@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="icon_plus" transform="translate(-340 -2541)">
+    <g id="長方形_2916" data-name="長方形 2916" transform="translate(340 2541)" fill="none" stroke="#2a98dd" stroke-width="1">
+      <rect width="20" height="20" stroke="none"/>
+      <rect x="0.5" y="0.5" width="19" height="19" fill="none"/>
+    </g>
+    <text id="_" data-name="＋" transform="translate(344 2556)" fill="#2a98dd" font-size="12" font-family="NotoSansCJKjp-Bold, Noto Sans CJK JP" font-weight="700" letter-spacing="0.1em"><tspan x="0" y="0">＋</tspan></text>
+  </g>
+</svg>
