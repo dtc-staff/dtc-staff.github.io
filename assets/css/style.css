@@ -376,6 +376,34 @@ a {
   }
 }
 
+.archive {
+  background: #F5F2F2;
+}
+.archive_inner {
+  /* max-width: 640px; */
+  margin: 0 auto;
+  /* padding: 0; */
+}
+.video_wrap {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%;
+}
+.video_wrap iframe {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .archive_inner {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
 .overview_text {
   width: 100%;
   max-width: 640px;
@@ -671,4 +699,5 @@ a {
 @media screen and (max-width: 768px) {
   .page_speaker {
     padding: 60px 30px 30px;
+  }
 }
