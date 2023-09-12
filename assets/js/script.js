@@ -47,9 +47,11 @@ $(function(){
       $main = $('.main_contents'),
       $nav = $('.main_btn_watch'),
       navHeight = $nav.outerHeight(),
-      navPos = $nav.offset().top,
       fixedClass = 'is-fixed',
       winWidth = $win.width();
+  if ($(navPos).length) {
+    var navPos = $('.main_btn_watch').offset().top;
+  }
 
   $win.on('load scroll', function(){
     if(winWidth < 769){
