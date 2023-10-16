@@ -207,6 +207,9 @@ a {
 .nav_btn_watch:hover {
   opacity: 0.8;
 }
+.nav_btn_watch.comingsoon:hover {
+  opacity: 1;
+}
 .nav_btn_watch p {
   color: #fff;
   font-size: 14px;
@@ -389,6 +392,10 @@ a {
     top: 0;
     left: 0;
     z-index: 5;
+  }
+  .main_btn_watch.comingsoon {
+    display: block;
+    height: auto;
   }
   .main_btn_watch p {
     color: #fff;
